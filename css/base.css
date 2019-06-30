@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a,
+p,
+span,
+i,
+em {
+    font-size: 12px;
+	color: #666;
+	text-decoration: none;
+}
+em,
+i {
+    font-style: normal;
+}
+img {
+	vertical-align: middle;
+}
+a:hover {
+	color: #c81623;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
